@@ -1,6 +1,6 @@
 PEOPLE = {
   "joe" => {
-    first_name: "Joe",
+    "first_name" "Joe",
     last_name: "Jenkins",
     preferences: {
       meal: "meat",
@@ -26,3 +26,5 @@ PEOPLE = {
     ],
   },
 }
+
+"joe"[:first_name]
